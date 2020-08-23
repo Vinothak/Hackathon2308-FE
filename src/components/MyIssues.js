@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import InfoIcon from '@material-ui/icons/Info';
 import axios from 'axios';
