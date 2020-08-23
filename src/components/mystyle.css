@@ -1,0 +1,159 @@
+.App {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .header{
+   background-color: #61dafb;
+   height:40px;
+   margin-bottom: 10px;
+   padding-top: 0;
+   padding-left: 10px;;
+   border-radius: 20px;;
+   margin-top: 50px;;
+  }
+  .body{
+    font-family: 'Courier New', Courier, monospace;
+    width:100%;
+  }
+  
+  
+  .submit{
+   width:200px;
+   height:40px;
+   background-color: greenyellow;
+   margin-top: 10px;
+   margin-left: 210px;;
+   border-radius: 20px;;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .short-des{
+   width:600px;
+   height:40px;
+   border:solid grey 1px;
+   margin-bottom: 10px;;
+  }
+  .full-des{
+    width:600px;
+    height:200px;
+    border:solid grey 1px;
+   }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  .modal{
+    width:400px;
+    height:400px;
+  }
+  
+  .modal-close{
+    position:absolute;
+    right:0px;
+    top:0px;
+    width:50px;
+    height:30px;
+    background-color: red;
+    border-radius: 20%;
+  }
+  .del{
+    position:absolute;
+    right:10px;
+    padding-left: 15px;
+  }
+  .primary{
+   width: 200px;
+   height: 40px;
+   border-radius: 10px;;
+   background-color: blue;
+   color:white;
+   margin-left: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .product{
+    position:relative;
+    width:80%;
+    border:solid silver 1px;
+    margin-top:30px;
+    margin: auto;
+    border-radius: 5px;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .pro-register{
+   height:200px;
+   width:300px;
+   margin-top: 20px;
+   border: solid grey 2px;
+   position : relative;
+   left:40%;
+   padding-top: 30px;
+  }
+  .outer-page{
+    position: relative;
+    left:45%;
+    margin-top: 5px;
+  }
+  
+  .issueheader{
+    height: 50px;
+    background-color: #D6EAF8 ;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .items{ 
+   margin-left: 10px; 
+   font-size: 15px;
+   text-align: left;
+   padding-left: 10px;
+   right: 200px;
+   border-bottom: solid silver 1px;;
+  }
+  .pro-update-hidden{
+    visibility: hidden;
+    height:200px;
+    width:300px;
+    margin-top: 20px;
+    border: solid grey 2px;
+    position : relative;
+    left:40%;
+    padding-top: 30px;
+   }
+   .pro-update-visible{
+    height:200px;
+    width:300px;
+    margin-top: 20px;
+    border: solid grey 2px;
+    position : relative;
+    left:40%;
+    padding-top: 30px;
+   }
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
