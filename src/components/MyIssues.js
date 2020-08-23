@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Mystyle.css'
 import InfoIcon from '@material-ui/icons/Info';
 import axios from 'axios';
 import Modal from 'react-modal'
